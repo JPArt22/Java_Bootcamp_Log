@@ -7,12 +7,55 @@ Java
 	- JSE: Java Standar Edition
 	- JEE: Java Enterprise Edition (Igual a Jakarta Enterprise Edition)
 
+
 IDEs para Java
---> NetBeans
---> IntelliJ
+
+	--> NetBeans
+	--> IntelliJ
 
 
 Sintaxis
---> Case sensitive: Distingue mayúsculas de minúsculas
---> Cada línea finaliza con ;
---> Principio y fin de cada estructura con llaves {}
+
+	--> Case sensitive: Distingue mayúsculas de minúsculas
+	--> Cada línea finaliza con ;
+	--> Principio y fin de cada estructura con llaves {}
+
+
+Variables
+
+	--> Entero: int
+	--> Decimales: double
+	--> Booleanos: boolean
+	--> Caracteres: char('a', 'z')
+	--> Cadena de caracteres: string ("Hello world 1,2,3")
+	--> Entero largo: long (números entre: -9.223.372.036.854.775.808 	y -9.223.372.036.854.775.807)
+
+	STRING NO ES CONSIDERADO UN TIPO PRIMITIVO DE JAVA --> Pregunta de 	entrevista laboral (es una CLASE)
+
+
+Declaración de variable
+
+	tipo de dato - número
+
+
+Reglas para la declaración de variables
+	--> No pueden iniciar con número
+	--> No pueden utilizar caracteres especiales
+	--> No space
+	--> Distingue entre mayúsculas y minúsculas
+	--> No utilizar palabras reservadas (double, int, for, private, etc.)
+	--> Strig se declara con mayúscula al principio por ser una clase
+
+CamelCase
+
+	Cuando trabajamos con variables, todas las variables empiezan con let	minúscula (ejemplo --> tieneCarnet)
+	
+	Cuando trabajamos con Clases o nombres de proyectos es diferente 	(ejemplo --> TieneCarnet)
+
+
+Operadores
+
+	--> Aritméticos (+ - * /)
+	--> Relaciones ( == igual, > <  <= >= menor(igual) y mayor(igual) 	que, != distinto) 
+	--> Condicionales (&& and, || o, ! NOT)
+
