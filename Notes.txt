@@ -1,0 +1,18 @@
+Java	
+
+--> Lenguaje de programación fuertemente tipado
+--> Orientado a Objetos
+--> Utilizado en grandes compañías (empresarial)
+--> 2 versiones:
+	- JSE: Java Standar Edition
+	- JEE: Java Enterprise Edition (Igual a Jakarta Enterprise Edition)
+
+IDEs para Java
+--> NetBeans
+--> IntelliJ
+
+
+Sintaxis
+--> Case sensitive: Distingue mayúsculas de minúsculas
+--> Cada línea finaliza con ;
+--> Principio y fin de cada estructura con llaves {}
