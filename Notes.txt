@@ -48,10 +48,11 @@ Reglas para la declaración de variables
 
 CamelCase
 
-	Cuando trabajamos con variables, todas las variables empiezan con let	minúscula (ejemplo --> tieneCarnet)
-	
-	Cuando trabajamos con Clases o nombres de proyectos es diferente 	(ejemplo --> TieneCarnet)
+	--> Cuando trabajamos con variables, todas las variables empiezan con let	minúscula (ejemplo --> tieneCarnet)
+	--> Cuando trabajamos con Clases o nombres de proyectos es diferente 	(ejemplo --> TieneCarnet)
 
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Operadores
 
@@ -59,3 +60,26 @@ Operadores
 	--> Relaciones ( == igual, > <  <= >= menor(igual) y mayor(igual) 	que, != distinto) 
 	--> Condicionales (&& and, || o, ! NOT)
 
+OJO: Java agarra el lenguaje de la máquina, es decir de nuestro pc (ejemplo: 2.5 teclado en inglés, 2,5 teclado en español)
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Condicionales
+	
+	--> if 
+	--> if else
+	--> if else anidados => if else dentro de if o dentro de else (hasta 36 anidaciones)
+	--> switch => Múltiples caminos a partir de la evaluación de una sola expresión/condición (se evalúa un valor simple)
+	--> Operadores ternarios => Decisiones simples en una sola línea de código (variable = (condición) ? valor_si_verdadero : valor_si_falso;
+
+NOTA: Seleccionar código, click derecho y format para identar mejor y ordenar código
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Estructuras repetitivas (Bucles)
+
+	--> 2 tipos: Controlados por un contador - Controlados por un centinela
+	--> do While: Estructura menos usada (la condición se evalúa al final, no al principio) ==> Se ejecuta al menos una vez (puede ser peligroso)
+	--> While: Estructura más usada (la condición se evalúa al principio) => puede ejecutarse o no dependiendo de la condición
+	--> For: Bucle controlado por contador por excelencia (ahorra código) su estructura es: inicialización, condición, modificación.\
+	--> Bucles infinitos: se ejecuta infinita cantidad de veces
