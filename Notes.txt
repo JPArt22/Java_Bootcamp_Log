@@ -83,3 +83,30 @@ Estructuras repetitivas (Bucles)
 	--> While: Estructura más usada (la condición se evalúa al principio) => puede ejecutarse o no dependiendo de la condición
 	--> For: Bucle controlado por contador por excelencia (ahorra código) su estructura es: inicialización, condición, modificación.\
 	--> Bucles infinitos: se ejecuta infinita cantidad de veces
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Operadores especiales de la clase String
+
+	--> equals (igual) => (if palabra.equals("Hola")
+	--> not equals (diferente) => (!palabra.equals("Hola"))
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Arrays y Matrices
+	--> se cuenta a partir de 0
+	--> manera contigua
+	--> Arrayslist son diferentes (se pueden modificar)
+	--> arrays - vectores - matrices ==> tamaño fijo
+	--> una vez definida la cantidad de los arrays, no se puede modificar
+	--> Se guarda siempre el mismo tipo de dato
+	--> Unidimensionales: Solo filas o solo columnas (vectores)
+	--> Dimensionales: Filas y columnas (matrices)
+	--> Matrices con mismo número de filas y columnas son matrices cuadradas
+	--> ¿Cómo hacer para matrices no cuadradas? { 
+         Basta con hacerle length a una fila de la matriz para obtener número de columnas
+         así: matriz[0].length }
+
+Error por desbordamiento
+	--> Cuando queremos acceder a una posición de nuestro arreglo o matriz que no existe (ejemplo el array tiene 20 posiciones
+	y queremos acceder a la posción 21) 
