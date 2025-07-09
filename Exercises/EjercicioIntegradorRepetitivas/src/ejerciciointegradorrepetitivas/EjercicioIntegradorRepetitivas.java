@@ -66,7 +66,7 @@ patente.*/
                         totalDia = totalDia + total;
                     }
                 }
-            System.out.println("************* ¡MUCHAS GRACIAS POR SU COMPRA! *************\n");
+                System.out.println("************* ¡MUCHAS GRACIAS POR SU COMPRA! *************\n");
             }
     
             
